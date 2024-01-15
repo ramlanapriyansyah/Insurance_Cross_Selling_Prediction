@@ -86,6 +86,6 @@ Dari hasil analisis dan modeling yang dilakukan, kami merekomendasikan untuk mel
 
 # Cost Simulation
 Setelah dilakukan modeling, kami melakukan simulasi untuk memperkirakan peningkatan efektifitas kegiatan cross-selling yang dilakukan perusahaan. 
-
+![Alt text](images/image-12.png)   ![Alt text](images/image-13.png)
 
 Hasilnya, dapat dilihat bahwa Customer Acquisition Cost (CAC) turun sebesar 79% dan Revenue meningkat sebesar 385%.
