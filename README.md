@@ -64,17 +64,17 @@ Berikut fitur-fitur terpilih dari seleksi pearson correlation dan mutual informa
 # Modeling
 ## 1. Alur Modeling
 Berikut adalah alur dari modeling yang dilakukan:
-![Alt text](images/image-5.png)
+![Alt text](images/image-7.png)
 
 ## 2. Hasil Modeling
-![(Alt text)](images/image-6.png)
+![(Alt text)](images/image-8.png)
 
 Metric evaluasi yang digunakan adalah **Precision**. Hal ini dikarenakan kami ingin memperkecil nilai False Positive sehingga melalui modeling ini harapannya bisa meningkatkan tingkat konversi cross-selling asuransi kendaraan, yang mana selaras dengan Goal yang telah dibuat.
 
 Dari berbagai Eksperimen yang telah dilakukan dengan menggunakan berbagai algoritma, dapat dilihat bahwa algoritma CatBoost memiliki nilai **Precision** yang sedikit lebih tinggi dari yang lain. Sehingga kami memilih algoritma ini.
 
 ## 3. Feature Importance
-![Alt text](images/image-7.png)
+![Alt text](images/image-9.png)
 
 Fitur 'Previously_Insured' merupakan fitur yang paling berpengaruh pada ketertarikan nasabah terhadap asuransi kendaraan. Hal ini menandakan dominan nasabah yang belum pernah berlangganan memiliki tingkat ketertarikan yang tinggi terhadap asuransi kendaraan.
 
@@ -86,6 +86,6 @@ Dari hasil analisis dan modeling yang dilakukan, kami merekomendasikan untuk mel
 
 # Cost Simulation
 Setelah dilakukan modeling, kami melakukan simulasi untuk memperkirakan peningkatan efektifitas kegiatan cross-selling yang dilakukan perusahaan. 
-![Alt text](images/image-12.png)   ![Alt text](images/image-13.png)
+![Alt text](images/image-12.png) ![Alt text](images/image-13.png)
 
 Hasilnya, dapat dilihat bahwa Customer Acquisition Cost (CAC) turun sebesar 79% dan Revenue meningkat sebesar 385%.
