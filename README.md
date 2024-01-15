@@ -11,33 +11,33 @@ Business metric yang digunakan adalah *conversion rate*, yaitu tingkat persentas
 
 # Exploratory Data Analysis (EDA)
 **1. Karakteristik Customer berdasarkan Kelompok Umur dan Jenis Kelamin**
-![Alt text](image.png)
+![Alt text](images/image.png)
 
 Kelompok umur Middle-Age Adults (45-64 tahun) baik laki-laki maupun perempuan memiliki tingkat ketertarikan tertinggi terhadap asuransi kendaraan, yaitu masing-masing sebesar 18.7% dan 17.3%
 
 **2. Karakteristik Customer berdasarkan Kerusakan Kendaraan**
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 Sebesar 23.8% customer yang pernah mengalami kerusakan kendaraan tertarik dengan asuransi kendaraan. Sedangkan hanya 0.5% customer yang tidak pernah mengalami kerusakan kendaraan yang tertarik terhadap asuransi kendaraan.
 
 **3. Karakteristik Customer berdasarkan Umur Kendaraan**
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 Customer yang memiliki umur kendaraan di atas 2 tahun memiliki tingkat ketertarikan tertinggi terhadap asuransi kendaraan, yaitu sebesar 29.4%
 
 **4. Karakteristik Customer berdasarkan Kepemilikan Asuransi Kendaraan Sebelumnya**
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 
 Sebesar 22.5% customer yang belum memiliki asuransi kendaraan sebelumnya tertarik terhadap asuransi kendaraan yang ditawarkan. Sedangkan customer yang sudah memiliki asuransi kendaraan sebelumnya hanya 0.1% saja yang tertarik.
 
 **5. Karakteristik Customer berdasarkan Region Code**
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
 Sebagian besar customer yang tertarik dengan asuransi kendaraan berasal dari Region Code 28 yaitu sebanyak 19.917 customer.
 Sedangkan dari Segi persentase, Region Code 38 memiliki tingkat persentase tertinggi yaitu mencapai 19.2%
 
 **6. Karakteristik Customer berdasarkan Policy Sales Channel**
-![Alt text](image-6.png)
+![Alt text](images/image-6.png)
 
 Channel yang paling banyak memperoleh customer adalah channel 26 dan 124.
 Adapun dari segi persentase, channel 157 memiliki persentase tertinggi yaitu sebesar 26.8%
@@ -64,17 +64,17 @@ Berikut fitur-fitur terpilih dari seleksi pearson correlation dan mutual informa
 # Modeling
 ## 1. Alur Modeling
 Berikut adalah alur dari modeling yang dilakukan:
-![Alt text](images/image-5.png)
+![Alt text](images/image-7.png)
 
 ## 2. Hasil Modeling
-![(Alt text)](images/image-6.png)
+![(Alt text)](images/image-8.png)
 
 Metric evaluasi yang digunakan adalah **Precision**. Hal ini dikarenakan kami ingin memperkecil nilai False Positive sehingga melalui modeling ini harapannya bisa meningkatkan tingkat konversi cross-selling asuransi kendaraan, yang mana selaras dengan Goal yang telah dibuat.
 
 Dari berbagai Eksperimen yang telah dilakukan dengan menggunakan berbagai algoritma, dapat dilihat bahwa algoritma CatBoost memiliki nilai **Precision** yang sedikit lebih tinggi dari yang lain. Sehingga kami memilih algoritma ini.
 
 ## 3. Feature Importance
-![Alt text](image-8.png)
+![Alt text](images/image-9.png)
 
 Fitur 'Previously_Insured' merupakan fitur yang paling berpengaruh pada ketertarikan nasabah terhadap asuransi kendaraan. Hal ini menandakan dominan nasabah yang belum pernah berlangganan memiliki tingkat ketertarikan yang tinggi terhadap asuransi kendaraan.
 
