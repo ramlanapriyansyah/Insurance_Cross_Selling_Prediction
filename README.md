@@ -85,7 +85,7 @@ Dari hasil analisis dan modeling yang dilakukan, kami merekomendasikan untuk mel
 3. Maksimalkan konversi pada customer yang belum pernah mengalami kerusakan kendaraan. Walau sebagian besar customer yang tertarik pada asuransi kendaraan adalah customer yang pernah mengalami kerusakan kendaraan, memasarkan produk pada kelompok customer ini bukan hal yang baik. Karena hal ini dapat memperbesar peluang klaim yang dilakukan. Tentu saja ini bukan hal yang baik dari segi bisnis.
 
 # Cost Simulation
-Setelah dilakukan modeling, kami melakukan simulasi untuk memperkirakan peningkatan efektifitas kegiatan cross-selling yang dilakukan perusahaan. 
+Setelah dilakukan modeling, kami melakukan simulasi untuk memperkirakan peningkatan efektifitas kegiatan cross-selling yang dilakukan perusahaan. </br>
 ![Alt text](images/image-12.png) ![Alt text](images/image-13.png)
 
 Hasilnya, dapat dilihat bahwa Customer Acquisition Cost (CAC) turun sebesar 79% dan Revenue meningkat sebesar 385%.
