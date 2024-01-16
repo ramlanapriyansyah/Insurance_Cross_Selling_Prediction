@@ -74,7 +74,8 @@ Metric evaluasi yang digunakan adalah **Precision**. Hal ini dikarenakan kami in
 Dari berbagai Eksperimen yang telah dilakukan dengan menggunakan berbagai algoritma, dapat dilihat bahwa algoritma CatBoost memiliki nilai **Precision** yang sedikit lebih tinggi dari yang lain. Sehingga kami memilih algoritma ini.
 
 ## 3. Feature Importance
-![Alt text](images/image-9.png)
+![image](https://github.com/ramlanapriyansyah/Insurance_Cross_Selling_Prediction/assets/135192484/16b2ba23-e0c7-43ce-b6af-0a62235623cf)
+
 
 Fitur 'Previously_Insured' merupakan fitur yang paling berpengaruh pada ketertarikan nasabah terhadap asuransi kendaraan. Hal ini menandakan dominan nasabah yang belum pernah berlangganan memiliki tingkat ketertarikan yang tinggi terhadap asuransi kendaraan.
 
